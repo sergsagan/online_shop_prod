@@ -1,0 +1,22 @@
+.heading {
+  font-family: $OpenSans;
+  color: $heading-color;
+  font-size: $h3-size;
+  font-weight: 700;
+}
+
+.text-style {
+  font-family: $OpenSans;
+  color: $base-color;
+  font-size: $links-size;
+  font-weight: 400;
+  line-height: 1.286;
+  text-align: justify;
+}
+
+.new {
+  border-radius: 50%;
+  background-color: $stack-color;
+  width: 40px;
+  height: 40px;
+}

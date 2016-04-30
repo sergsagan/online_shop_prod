@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>povlečení prostěradla: product</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/font-loader.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="clearfix">
+        <h2 class="header__logo"><a href="#">povlečení<br>
+            <small>prostěradla</small>
+            <span class="shop">shop</span></a></h2>
+        <div class="menu-collapsed">
+            <div class="bar"></div>
+            <menu>
+                <ul>
+                    <li><a href="#">DODÁNÍ</a></li>
+                    <li><a href="#">OBCHODNI PODMINKY</a></li>
+                    <li><a href="#">O NÁS</a></li>
+                    <li><a href="#">Užitečné články</a></li>
+                </ul>
+            </menu>
+        </div>
+        <nav class="top_nav">
+            <ul>
+                <li><a href="#">DODÁNÍ</a></li>
+                <li><a href="#">OBCHODNI PODMINKY</a></li>
+                <li><a href="#">O NÁS</a></li>
+                <li><a href="#">Užitečné články</a></li>
+            </ul>
+        </nav>
+        <div class="links">
+            <a href="#">Registrace</a>
+            <a href="#">Přihlásit se</a>
+            <input name="search" type="text" value="vyhledat" required=""
+                   onblur="if(this.value=='') this.value='vyhledat';"
+                   onfocus="if(this.value=='vyhledat') this.value='';">
+            <input name="btnsearch" type="image" class="search-btn">
+        </div>
+
+        <div class="header__cart">
+            <img class="img_cart" src="img/icon-cart.png" alt="cart">
+            <table class="cart_info">
+                <caption>Nákupní košík</caption>
+                <tr>
+                    <td>položek</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>součet</td>
+                    <td>0 Kč</td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <main class="clearfix">
+
+        <article>
+
+            <h3>Kategorie</h3>
+
+            <nav>
+                <ul id="left_menu">
+                    <li><a href="#">POVLEČENÍ</a></li>
+                    <li><a href="#">PROSTĚRADLA</a>
+                        <ul>
+                            <li><a href="#">JERSEY PROSTĚRADLA</a></li>
+                            <li><a href="#">FROTÉ PROSTĚRADLA</a></li>
+                            <li><a href="#">PROSTĚRADLA MIKROPLYŠ-MIKROVLÁKNO</a></li>
+                            <li><a href="#">DĚTSKÁ PROSTĚRADLA</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PŘIKRÝVKY A POLŠTÁŘE</a></li>
+                    <li><a href="#">DEKY</a></li>
+                    <li><a href="#">ZÁCLONY</a></li>
+                    <li><a href="#">ZÁVĚSY, DEKORAČNÍ LÁTKA</a></li>
+                    <li><a href="#">RUČNÍKY-OSUŠKY</a></li>
+                </ul>
+            </nav>
+
+            <div class="variant clearfix">
+
+                <h3><a href="#">Řadit podle</a></h3>
+
+                <div class="size">
+
+                    <h5>Rozměr</h5>
+
+                    <input type="checkbox" id="check-11" class="element-checkbox" name="check-11"/>
+                    <span>135/200</span><br>
+                    <input type="checkbox" id="check-12" class="element-checkbox" name="check-12"/>
+                    <span>140/200</span><br>
+                    <input type="checkbox" id="check-13" class="element-checkbox" name="check-13"/>
+                    <span>200/220</span>
+
+                </div>
+
+                <div class="material">
+
+                    <h5>Materiál</h5>
+
+                    <input type="checkbox" id="check-14" class="element-checkbox" name="check-14"/>
+                    <span>100% Polyester</span><br>
+                    <input type="checkbox" id="check-15" class="element-checkbox" name="check-15"/>
+                    <span>100% Bavlna</span><br>
+
+                </div>
+
+
+                <div class="color">
+
+                    <h5>Barva</h5>
+
+                    <input type="checkbox" id="check-16" class="element-checkbox" name="check-16"/>
+                    <span>bilá</span><br>
+                    <input type="checkbox" id="check-17" class="element-checkbox" name="check-17"/>
+                    <span>žluta</span><br>
+                    <input type="checkbox" id="check-18" class="element-checkbox" name="check-18"/>
+                    <span>modrá</span><br>
+                    <input type="checkbox" id="check-19" class="element-checkbox" name="check-19"/>
+                    <span>zelená</span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="mobile_menu">
+
+            <div class="accordion">
+
+                <ul class="acc">
+                    <li>
+                        <button class="acc_ctrl"><h3>Kategorie</h3></button>
+                        <div class="acc_panel">
+                            <nav>
+                                <ul id="menu">
+                                    <li><a href="index.html">POVLEČENÍ</a></li>
+                                    <li><a href="#">PROSTĚRADLA</a>
+                                        <ul>
+                                            <li><a href="#">JERSEY PROSTĚRADLA</a></li>
+                                            <li><a href="#">FROTÉ PROSTĚRADLA</a></li>
+                                            <li><a href="#">PROSTĚRADLA MIKROPLYŠ-MIKROVLÁKNO</a></li>
+                                            <li><a href="product.html">DĚTSKÁ PROSTĚRADLA</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">PŘIKRÝVKY A POLŠTÁŘE</a></li>
+                                    <li><a href="#">DEKY</a></li>
+                                    <li><a href="#">ZÁCLONY</a></li>
+                                    <li><a href="#">ZÁVĚSY, DEKORAČNÍ LÁTKA</a></li>
+                                    <li><a href="catalog.html">RUČNÍKY-OSUŠKY</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="acc">
+                    <li>
+                        <button class="acc_ctrl"><h3>Řadit podle</h3></button>
+                        <div class="acc_panel">
+                            <div class="variant clearfix">
+
+                                <div class="size">
+
+                                    <h5>Rozměr</h5>
+
+                                    <input type="checkbox" id="check-11" class="element-checkbox" name="check-11"/>
+                                    <span>135/200</span><br>
+                                    <input type="checkbox" id="check-12" class="element-checkbox" name="check-12"/>
+                                    <span>140/200</span><br>
+                                    <input type="checkbox" id="check-13" class="element-checkbox" name="check-13"/>
+                                    <span>200/220</span>
+
+                                </div>
+
+                                <div class="material">
+
+                                    <h5>Materiál</h5>
+
+                                    <input type="checkbox" id="check-14" class="element-checkbox" name="check-14"/>
+                                    <span>100% Polyester</span><br>
+                                    <input type="checkbox" id="check-15" class="element-checkbox" name="check-15"/>
+                                    <span>100% Bavlna</span><br>
+
+                                </div>
+
+                                <div class="color">
+
+                                    <h5>Barva</h5>
+
+                                    <div class="right_group">
+                                        <input type="checkbox" id="check-16" class="element-checkbox" name="check-16"/>
+                                        <span>bilá</span><br>
+                                        <input type="checkbox" id="check-17" class="element-checkbox" name="check-17"/>
+                                        <span>žluta</span><br>
+                                    </div>
+
+                                    <div class="left_group">
+                                        <input type="checkbox" id="check-18" class="element-checkbox" name="check-18"/>
+                                        <span>modrá</span><br>
+                                        <input type="checkbox" id="check-19" class="element-checkbox" name="check-19"/>
+                                        <span>zelená</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="variant clearfix">
+
+                <h3><a href="#">Řadit podle</a></h3>
+
+                <div class="size">
+
+                    <h5>Rozměr</h5>
+
+                    <input type="checkbox" id="check-1" class="element-checkbox" name="check-1"/>
+                    <span>135/200</span><br>
+                    <input type="checkbox" id="check-2" class="element-checkbox" name="check-2"/>
+                    <span>140/200</span><br>
+                    <input type="checkbox" id="check-3" class="element-checkbox" name="check-3"/>
+                    <span>200/220</span>
+
+                </div>
+
+                <div class="material">
+
+                    <h5>Materiál</h5>
+
+                    <input type="checkbox" id="check-4" class="element-checkbox" name="check-4"/>
+                    <span>100% Polyester</span><br>
+                    <input type="checkbox" id="check-5" class="element-checkbox" name="check-5"/>
+                    <span>100% Bavlna</span><br>
+
+                </div>
+
+
+                <div class="color">
+
+                    <h5>Barva</h5>
+
+                    <div class="right_group">
+                        <input type="checkbox" id="check-16" class="element-checkbox" name="check-16"/>
+                        <span>bilá</span><br>
+                        <input type="checkbox" id="check-17" class="element-checkbox" name="check-17"/>
+                        <span>žluta</span><br>
+                    </div>
+
+                    <div class="left_group">
+                        <input type="checkbox" id="check-18" class="element-checkbox" name="check-18"/>
+                        <span>modrá</span><br>
+                        <input type="checkbox" id="check-19" class="element-checkbox" name="check-19"/>
+                        <span>zelená</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </article>
+
+        <section class="product">
+
+            <a class="descr">Bytový textil > Povlaky na polštáře > Povlaky na polštáře 40x40</a> <a href="#"
+                                                                                                    class="descr__right">
+            > Zpět </a>
+
+            <div class="product__card clearfix">
+
+                <div class="product_img">
+                    <img src="img/icon-new.png" alt="new" class="new">
+                    <a class="item" href="img/product.png"><img class="product_images" src="img/product.png" alt="alt"
+                                                                width="398" height="291"></a>
+                </div>
+
+                <div class="product_info">
+                    <h3>Set přikrývka a polštář Lux </h3>
+
+                    <table>
+                        <tr>
+                            <td class="name">Výrobce:</td>
+                            <td class="result">Broste</td>
+                        </tr>
+                        <tr>
+                            <td class="name"></td>
+                            <td class="result"><a href="#">info o výrobci ></a></td>
+                        </tr>
+                        <tr>
+                            <td class="name">Kolekce:</td>
+                            <td class="result"></td>
+                        </tr>
+                        <tr>
+                            <td class="name">Kód:</td>
+                            <td class="result">71112001</td>
+                        </tr>
+                    </table>
+                    <label>Množství:</label>
+                    <input type="number" size="10" name="num" min="1" max="15" value="1" step="1">
+                </div>
+
+                <div class="product_sort">
+                    <table>
+                        <tr>
+                            <td class="name">Materiál:</td>
+                            <td class="result">100% bavlna</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Rozměr:</td>
+                            <td class="result">40x40 cm</td>
+                        </tr>
+                        <tr>
+                            <td class="name">Barva:</td>
+                            <td class="result">černá</td>
+                        </tr>
+                    </table>
+                    <p class="head_text">Popis produktu:</p>
+                    <p>Povlak na polštář FELICIA černý</p>
+                </div>
+
+                <div class="product_price">
+                    <div class="price">
+                        <span>755 kč</span>
+                        <p>624 Kč bez DPH<br><span>k dodání (obvykle do 6 týdnů)</span></p>
+                    </div>
+
+                    <div class="btn_wrap">
+                        <a class="btn" href="#">do KOŠÍKU</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="related">
+
+            <h3>Související produkty</h3>
+
+            <div class="responsive">
+                <div>
+                    <div class="slide__product">
+                        <a href="#"><img class="product_img" src="img/product1.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide__product">
+                        <img src="img/icon-akce.png" alt="akce" class="new">
+                        <a href="#"><img class="product_img" src="img/product2.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide__product">
+                        <a href="#"><img class="product_img" src="img/product3.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide__product">
+                        <a href="#"><img class="product_img" src="img/product1.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide__product">
+                        <img src="img/icon-akce.png" alt="akce" class="new">
+                        <a href="#"><img class="product_img" src="img/product2.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slide__product">
+                        <a href="#"><img class="product_img" src="img/product3.png" alt="alt"></a>
+                        <div class="product__text-block">
+                            <h4>Polštář prošívaný Opt...</h4>
+                            <table>
+                                <tr>
+                                    <td class="name">Brend</td>
+                                    <td class="price">755 kč</td>
+                                </tr>
+                            </table>
+                            <a href="#">k dodání (obvykle do 6 týdnů)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="clearfix">
+
+        <section class="left__info clearfix">
+
+            <div class="bank__info clearfix">
+                <img class="info_img" src="img/icon-bank.png" alt="bank">
+                <a class="info_text">Bankovní převod</a>
+            </div>
+
+            <div class="post__info">
+                <a href="#"><img class="post_img" src="img/icon-post.png" alt="post"></a>
+                <a href="#"><img src="img/img_fullsize.png" alt="alt"></a>
+            </div>
+
+        </section>
+
+        <section class="right__info clearfix">
+            <div class="social">
+                <a href="#"><img src="img/icon-in.png" alt="in"></a>
+                <a href="#"><img src="img/icon-tb.png" alt="tb"></a>
+                <a href="#"><img src="img/icon-tw.png" alt="tw"></a>
+                <a href="#"><img src="img/icon-g.png" alt="g"></a>
+                <a href="#"><img src="img/icon-fb.png" alt="fb"></a>
+            </div>
+
+            <div class="create__info">
+                <p class="info">web created</p>
+                <a href="#"><img class="icon_web" src="img/icon-i.png" alt="web"></a>
+            </div>
+        </section>
+
+    </footer>
+</div>
+
+<script src="js/vendor.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
